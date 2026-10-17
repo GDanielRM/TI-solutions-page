@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="es-MX">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="TI Solutions. Sitios web, aplicaciones, tiendas en línea y soluciones digitales a medida. Cuéntanos tu idea. Desde Culiacán, con atención remota.">
+  <meta name="theme-color" content="#1548e8">
+  <meta property="og:title" content="TI Solutions · Tu idea, hecha realidad">
+  <meta property="og:description"
+    content="Sitios web, aplicaciones y soluciones digitales a medida para tu siguiente proyecto.">
+  <meta property="og:type" content="website">
+  <title>TI Solutions · Sitios web, aplicaciones y soluciones a medida</title>
+  <link rel="icon" href="assets/img/favicon-sphere.svg" type="image/svg+xml" sizes="any">
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/vendor/bootstrap.bundle.min.js"></script>
+  <script defer src="assets/js/config.js"></script>
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="assets/js/logo-sphere.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M5 12h14m-6-6 6 6-6 6" />
+    </symbol>
+    <symbol id="i-code" viewBox="0 0 24 24">
+      <path d="m8 6-6 6 6 6m8-12 6 6-6 6m-2-15-4 18" />
+    </symbol>
+    <symbol id="i-data" viewBox="0 0 24 24">
+      <ellipse cx="12" cy="5" rx="8" ry="3" />
+      <path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0" />
+    </symbol>
+    <symbol id="i-flow" viewBox="0 0 24 24">
+      <rect x="2" y="2" width="7" height="7" rx="2" />
+      <rect x="15" y="15" width="7" height="7" rx="2" />
+      <path d="M9 5h7a3 3 0 0 1 3 3v7M15 19H8a3 3 0 0 1-3-3V9" />
+    </symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24">
+      <path d="m14 7 3 3 5-5a7 7 0 0 1-9 9l-7 7a3 3 0 0 1-4-4l7-7a7 7 0 0 1 9-9z" />
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path d="m5 12 4 4L19 6" />
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+      <circle cx="12" cy="10" r="2.5" />
+    </symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24">
+      <path d="M21 11a9 9 0 0 1-13 8l-6 2 2-6A9 9 0 1 1 21 11Z" />
+      <path d="M8 10h8m-8 4h5" />
+    </symbol>
+    <symbol id="i-web" viewBox="0 0 24 24">
+      <rect x="2" y="3" width="20" height="18" rx="2" />
+      <path d="M2 8h20M6 5.5h.1m3 0h.1M6 12h7m-7 4h11" />
+    </symbol>
+    <symbol id="i-app" viewBox="0 0 24 24">
+      <rect x="6" y="2" width="12" height="20" rx="3" />
+      <path d="M10 5h4m-4 14h4M9 9h6v6H9Z" />
+    </symbol>
+    <symbol id="i-shop" viewBox="0 0 24 24">
+      <path d="M4 8h16l1 14H3L4 8Zm4 0V6a4 4 0 0 1 8 0v2M8 12h.1m7.9 0h.1" />
+    </symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M14.3 22v-8.9h3l.5-3.5h-3.5V7.4c0-1 .3-1.7 1.8-1.7H18V2.6c-.3 0-1.4-.1-2.8-.1-2.8 0-4.7 1.7-4.7 4.8v2.3H7.4v3.5h3.1V22z" />
+    </symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8" />
+      <circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="1.8" />
+      <circle cx="17.6" cy="6.5" r="1.1" fill="currentColor" />
+    </symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 16 16">
+      <path fill="currentColor"
+        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg container" aria-label="Navegación principal">
+      <a class="navbar-brand brand" href="#inicio" aria-label="TI Solutions, inicio"><img
+          src="assets/img/ti-solutions-header-v2.svg" width="226" height="74" alt="TI Solutions · Software Innovations"
+          fetchpriority="high"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Ejemplos de soluciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proceso">Cómo trabajamos</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-dark btn-nav" href="#contacto">Hablemos <svg class="icon">
+                <use href="#i-arrow" />
+              </svg></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section id="inicio" class="hero section-anchor">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> TECNOLOGÍA CON PROPÓSITO</p>
+            <h1>Tu idea.<br>Hecha<br><span>realidad.</span></h1>
+            <p class="hero-description">Creamos sitios web, aplicaciones y soluciones digitales a medida para impulsar
+              tu negocio y dar forma a tus ideas.</p>
+            <div class="d-flex flex-wrap gap-3 hero-actions">
+              <a href="#contacto" class="btn btn-primary">Cuéntanos tu proyecto <svg class="icon">
+                  <use href="#i-arrow" />
+                </svg></a>
+              <a href="#servicios" class="btn btn-outline-dark">Explorar servicios</a>
+            </div>
+            <p class="hero-location"><svg class="icon">
+                <use href="#i-pin" />
+              </svg> Culiacán, Sinaloa <span>·</span> Atención remota</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-visual">
+              <div class="visual-grid" aria-hidden="true"></div>
+              <div class="orbit-label"><span class="status-dot"></span> Ideas que se convierten en soluciones</div>
+              <div class="dashboard">
+                <div class="dashboard-top">
+                  <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>TI / SOLUCIONES
+                    DIGITALES</span><span class="demo-pill">CONCEPTO</span>
+                </div>
+                <div class="dashboard-body">
+                  <div class="dashboard-title">
+                    <div><small>DE LA IDEA A LA PANTALLA</small>
+                      <h2>¿Qué quieres crear?</h2>
+                    </div><span class="dashboard-mark" aria-hidden="true">↗</span>
+                  </div>
+                  <div class="showcase-tabs nav" role="tablist" aria-label="Ejemplos de soluciones">
+                    <button class="active" id="showcase-web-tab" data-bs-toggle="tab" data-bs-target="#showcase-web"
+                      type="button" role="tab" aria-controls="showcase-web" aria-selected="true">Sitio web</button>
+                    <button id="showcase-app-tab" data-bs-toggle="tab" data-bs-target="#showcase-app" type="button"
+                      role="tab" aria-controls="showcase-app" aria-selected="false">Aplicación</button>
+                    <button id="showcase-custom-tab" data-bs-toggle="tab" data-bs-target="#showcase-custom"
+                      type="button" role="tab" aria-controls="showcase-custom" aria-selected="false">A medida</button>
+                  </div>
+                  <div class="tab-content showcase-content">
+                    <div id="showcase-web" class="tab-pane active" role="tabpanel" aria-labelledby="showcase-web-tab"
+                      tabindex="0">
+                      <div class="concept-site" aria-hidden="true">
+                        <div class="concept-nav"><strong>TU MARCA</strong><span>Inicio · Servicios · Contacto</span>
+                        </div>
+                        <div class="concept-site-body"><small>UNA NUEVA FORMA DE PRESENTARTE</small><strong>Tu
+                            negocio.<br>Tu espacio digital.</strong>
+                          <div class="concept-cta">Conoce más ↗</div>
+                        </div>
+                        <div class="concept-tiles"><i></i><i></i><i></i></div>
+                      </div>
+                      <p class="showcase-caption">Un sitio para presentar tu marca y conectar con clientes.</p>
+                    </div>
+                    <div id="showcase-app" class="tab-pane" role="tabpanel" aria-labelledby="showcase-app-tab"
+                      tabindex="0">
+                      <div class="concept-app" aria-hidden="true">
+                        <div class="app-siderail"><i></i><i></i><i></i><i></i></div>
+                        <div class="app-workspace"><small>MI ESPACIO</small><strong>Todo en su lugar.</strong>
+                          <div class="app-task"><span>01</span> Solicitudes <b>↗</b></div>
+                          <div class="app-task"><span>02</span> Agenda <b>↗</b></div>
+                          <div class="app-task"><span>03</span> Documentos <b>↗</b></div>
+                        </div>
+                      </div>
+                      <p class="showcase-caption">Una aplicación para tus usuarios, tus clientes o tu operación.</p>
+                    </div>
+                    <div id="showcase-custom" class="tab-pane" role="tabpanel" aria-labelledby="showcase-custom-tab"
+                      tabindex="0">
+                      <div class="concept-custom" aria-hidden="true">
+                        <div class="custom-center"><svg class="icon">
+                            <use href="#i-code" />
+                          </svg><strong>Tu solución</strong><small>Tu forma de trabajar</small></div>
+                        <div class="custom-tags"><span>Usuarios</span><span>Procesos</span><span>Herramientas</span>
+                        </div>
+                      </div>
+                      <p class="showcase-caption">Funciones e integraciones definidas alrededor de tu necesidad.</p>
+                    </div>
+                  </div>
+                  <div class="dashboard-bottom"><span class="connection-dot"></span> Sitios web · Aplicaciones ·
+                    Soluciones a medida</div>
+                </div>
+              </div>
+              <div class="integration-chip"><span class="chip-icon"><svg class="icon">
+                    <use href="#i-code" />
+                  </svg></span>
+                <div><strong>Tu necesidad es el punto de partida.</strong><small>Construyamos tu siguiente
+                    proyecto</small></div>
+              </div>
+              <span class="visual-caption">DISEÑO Y DESARROLLO DIGITAL</span>
+            </div>
+          </div>
+        </div>
+        <div class="capability-strip"><span>SITIOS WEB</span><span class="strip-star"
+            aria-hidden="true">✳</span><span>APLICACIONES</span><span class="strip-star"
+            aria-hidden="true">✳</span><span>SOLUCIONES A MEDIDA</span><span class="strip-star"
+            aria-hidden="true">✳</span><span>COMERCIO EN LÍNEA</span></div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section-pad section-anchor">
+      <div class="container">
+        <div class="row section-heading align-items-end g-3">
+          <div class="col-lg-7">
+            <p class="eyebrow">01 / QUÉ HACEMOS</p>
+            <h2>Soluciones para lo que<br>quieres hacer posible.</h2>
+          </div>
+          <div class="col-lg-5">
+            <p class="section-intro">Desde tu primer sitio web hasta una aplicación o una herramienta a medida. Tu
+              objetivo define el proyecto.</p>
+          </div>
+        </div>
+        <div class="row g-0 service-grid">
+          <article class="col-md-6 col-xl-4 service-card">
+            <div class="service-top"><svg class="service-icon">
+                <use href="#i-web" />
+              </svg><span>01</span></div>
+            <h3>Sitios web</h3>
+            <p>Páginas para presentar tu negocio, mostrar tus servicios y recibir consultas. Desde una landing page
+              hasta un sitio con varias secciones.</p><a class="text-link" href="#contacto"
+              data-service="Sitios web">Dale un lugar a tu marca <svg class="icon">
+                <use href="#i-arrow" />
+              </svg></a>
+          </article>
+          <article class="col-md-6 col-xl-4 service-card">
+            <div class="service-top"><svg class="service-icon">
+                <use href="#i-app" />
+              </svg><span>02</span></div>
+            <h3>Aplicaciones web y móviles</h3>
+            <p>Aplicaciones para tus clientes, tu equipo o tu nueva idea. Definimos contigo las funciones y el formato
+              que necesita el proyecto.</p><a class="text-link" href="#contacto"
+              data-service="Aplicaciones web y móviles">Convirtamos tu idea en una app <svg class="icon">
+                <use href="#i-arrow" />
+              </svg></a>
+          </article>
+          <article class="col-md-6 col-xl-4 service-card">
+            <div class="service-top"><svg class="service-icon">
+                <use href="#i-code" />
+              </svg><span>03</span></div>
+            <h3>Software a medida</h3>
+            <p>Plataformas, portales y herramientas construidas alrededor de tu forma de trabajar, con las funciones que
+              tu operación necesita.</p><a class="text-link" href="#contacto" data-service="Software a medida">Diseñemos
+              tu solución <svg class="icon">
+                <use href="#i-arrow" />
+              </svg></a>
+          </article>
+          <article class="col-md-6 col-xl-4 service-card">
+            <div class="service-top"><svg class="service-icon">
+                <use href="#i-shop" />
+              </svg><span>04</span></div>
+            <h3>Tiendas en línea</h3>
+            <p>Catálogos y experiencias de compra para ofrecer tus productos en internet. Revisamos pedidos, pagos y
+              conexiones según tu negocio.</p><a class="text-link" href="#contacto"
+              data-service="Tiendas en línea">Llevemos tu tienda a internet <svg class="icon">
+                <use href="#i-arrow" />
+              </svg></a>
+          </article>
+          <article class="col-md-6 col-xl-4 service-card">
+            <div class="service-top"><svg class="service-icon">
+                <use href="#i-flow" />
+              </svg><span>05</span></div>
+            <h3>Automatización e integraciones</h3>
+            <p>Herramientas conectadas y menos tareas repetitivas. Facilitamos el flujo de información entre los
+              servicios que utiliza tu negocio.</p><a class="text-link" href="#contacto"
+              data-service="Automatización e integraciones">Conectemos tus herramientas <svg class="icon">
+                <use href="#i-arrow" />
+              </svg></a>
+          </article>
+          <article class="col-md-6 col-xl-4 service-card">
+            <div class="service-top"><svg class="service-icon">
+                <use href="#i-tool" />
+              </svg><span>06</span></div>
+            <h3>Mejoras y mantenimiento</h3>
+            <p>Tu proyecto también puede evolucionar. Revisamos errores, agregamos funciones y actualizamos sitios o
+              aplicaciones existentes.</p><a class="text-link" href="#contacto"
+              data-service="Mejoras y mantenimiento">Demos el siguiente paso <svg class="icon">
+                <use href="#i-arrow" />
+              </svg></a>
+          </article>
+        </div>
+        <div class="open-brief"><svg class="icon">
+            <use href="#i-chat" />
+          </svg>
+          <p><strong>¿Tu idea no aparece en la lista?</strong> Cuéntanos qué quieres lograr. Revisamos contigo cómo
+            convertirlo en una solución digital.</p><a class="text-link" href="#contacto">Hablemos <svg class="icon">
+              <use href="#i-arrow" />
+            </svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="soluciones" class="solutions section-pad section-anchor">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <p class="eyebrow">02 / TU SIGUIENTE PASO</p>
+            <h2>Hay muchas formas<br>de empezar.</h2>
+            <p class="section-intro mt-4">Puedes llegar con un objetivo, una necesidad o una idea por explorar. Juntos
+              definimos el camino.</p><a href="#contacto" class="text-link mt-3">Encontremos una solución <svg
+                class="icon">
+                <use href="#i-arrow" />
+              </svg></a>
+          </div>
+          <div class="col-lg-7 solution-list">
+            <article><span class="solution-number">01</span>
+              <div>
+                <h3>“Quiero que mi negocio tenga presencia en internet.”</h3>
+                <p>Un sitio para presentar tu marca, un catálogo para tus productos o una tienda para recibir pedidos.
+                </p>
+              </div><svg class="icon">
+                <use href="#i-web" />
+              </svg>
+            </article>
+            <article><span class="solution-number">02</span>
+              <div>
+                <h3>“Tengo una idea para una aplicación.”</h3>
+                <p>Te ayudamos a definir las funciones esenciales y una primera versión que puedas poner en marcha.</p>
+              </div><svg class="icon">
+                <use href="#i-app" />
+              </svg>
+            </article>
+            <article><span class="solution-number">03</span>
+              <div>
+                <h3>“Necesito algo que se adapte a mi forma de trabajar.”</h3>
+                <p>Exploramos una herramienta a medida: reservas, clientes, solicitudes, inventario o el proceso que
+                  necesites organizar.</p>
+              </div><svg class="icon">
+                <use href="#i-code" />
+              </svg>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clientes" class="clients-section section-pad section-anchor" aria-labelledby="clientsTitle">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">03 / NUESTROS CLIENTES</p>
+          <h2 id="clientsTitle">Clientes con los que<br>hemos trabajado.</h2>
+        </div>
+        <div class="row g-4 client-logo-grid mx-auto">
+          <div class="col-sm-6">
+            <figure class="client-logo-card">
+              <div class="client-mark"><img class="logo-aplimet" src="assets/img/clients/aplimet.png" width="447"
+                  height="447" alt="Aplimet · Aplicaciones en Metrología" loading="lazy" decoding="async"></div>
+            </figure>
+          </div>
+          <div class="col-sm-6">
+            <figure class="client-logo-card">
+              <div class="client-mark"><img class="logo-biosima" src="assets/img/clients/biosima.png" width="1024"
+                  height="235" alt="Biosima · Soluciones Integrales de Medio Ambiente y Seguridad Laboral"
+                  loading="lazy" decoding="async"></div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section-pad section-anchor">
+      <div class="container">
+        <div class="row section-heading align-items-end g-3">
+          <div class="col-lg-7">
+            <p class="eyebrow">04 / DE LA IDEA A LA PRÁCTICA</p>
+            <h2>Distintas ideas.<br>Soluciones con propósito.</h2>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <article class="project-card">
+              <div class="project-art website-art" aria-hidden="true">
+                <div class="project-website">
+                  <div class="project-web-nav">TU MARCA <span>☰</span></div>
+                  <div class="project-web-hero"><small>HECHO PARA TU NEGOCIO</small><strong>Una presencia<br>que te
+                      representa.</strong><span class="project-web-button">Conócenos ↗</span></div>
+                  <div class="project-web-tiles"><i></i><i></i><i></i></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div><span class="project-category">SITIO WEB</span>
+                  <h3>Tu marca, en línea</h3>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4">
+            <article class="project-card">
+              <div class="project-art booking-art" aria-hidden="true">
+                <div class="booking-phone">
+                  <div class="phone-speaker"></div><small>TU ESPACIO</small><strong>Mi agenda</strong>
+                  <div class="booking-days"><span>L<br>12</span><span
+                      class="selected">M<br>13</span><span>M<br>14</span><span>J<br>15</span></div>
+                  <div class="booking-item"><b>09:00</b><span>Reunión de equipo</span></div>
+                  <div class="booking-item"><b>10:30</b><span>Presentación</span></div>
+                  <div class="booking-item"><b>12:00</b><span>Revisión de proyecto</span></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div><span class="project-category">APLICACIÓN</span>
+                  <h3>Tu servicio, más cerca</h3>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4">
+            <article class="project-card">
+              <div class="project-art flow-art" aria-hidden="true">
+                <div class="flow-node"><span>01</span> Nueva solicitud <b>✓</b></div>
+                <div class="flow-line"></div>
+                <div class="flow-node"><span>02</span> Seguimiento <b>✓</b></div>
+                <div class="flow-line"></div>
+                <div class="flow-node featured"><span>03</span> Todo conectado <b>↗</b></div>
+              </div>
+              <div class="project-info">
+                <div><span class="project-category">SOFTWARE A MEDIDA</span>
+                  <h3>Tu proceso, a tu manera</h3>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="about-section section-pad section-anchor">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <div class="about-panel"><span class="eyebrow">TI SOLUTIONS / SOFTWARE INNOVATIONS</span>
+              <div class="network-orb" data-logo-sphere>
+                <div class="orb-stage"><img src="assets/img/ti-solutions-sphere.png" width="1254" height="1254" alt=""
+                    decoding="async" loading="lazy"><canvas width="520" height="520" aria-hidden="true" hidden></canvas>
+                </div><button class="orb-toggle" type="button" aria-pressed="false" hidden>Activar giro</button>
+              </div>
+              <p>Conectamos ideas.<br><strong>Construimos soluciones.</strong></p><span
+                class="about-coordinates">CULIACÁN, MÉXICO · CONEXIÓN REMOTA</span>
+            </div>
+          </div>
+          <div class="col-lg-7 about-copy">
+            <p class="eyebrow">05 / DETRÁS DE TI SOLUTIONS</p>
+            <h2>Tecnología cercana.<br>Trabajo con intención.</h2>
+            <p class="lead mt-4">En TI Solutions convertimos ideas y necesidades en soluciones digitales.</p>
+            <p>Un sitio que represente tu marca, una aplicación para tus usuarios o una herramienta creada para tu
+              operación. El punto de partida es lo que quieres lograr.</p>
+            <p>Soy Daniel, director de TI Solutions, una casa desarrolladora de soluciones digitales. Cuento con más de
+              ocho años de experiencia en desarrollo de software y diferentes tecnologías.</p>
+            <p>Te acompaño desde la definición de tu idea hasta la entrega, con comunicación directa y un alcance claro.
+            </p>
+            <div class="tech-stack" aria-label="Enfoque de trabajo"><span>Diseño
+                funcional</span><span>Desarrollo</span><span>Integración</span><span>Evolución</span></div>
+            <div class="about-note"><svg class="icon">
+                <use href="#i-check" />
+              </svg> Una solución pensada alrededor de tu proyecto.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" class="section-pad section-anchor">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">06 / CÓMO TRABAJAMOS</p>
+          <h2>Claridad desde<br>la primera conversación.</h2>
+        </div>
+        <div class="row g-4 process-row">
+          <article class="col-md-6 col-lg-3 process-step"><span class="step-number">01</span>
+            <h3>Te escuchamos</h3>
+            <p>Nos cuentas qué quieres crear, para quién y qué necesitas resolver.</p>
+          </article>
+          <article class="col-md-6 col-lg-3 process-step"><span class="step-number">02</span>
+            <h3>Definimos el alcance</h3>
+            <p>Acordamos solución, entregables, presupuesto y tiempos.</p>
+          </article>
+          <article class="col-md-6 col-lg-3 process-step"><span class="step-number">03</span>
+            <h3>Construimos y probamos</h3>
+            <p>Desarrollamos la solución y revisamos su funcionamiento.</p>
+          </article>
+          <article class="col-md-6 col-lg-3 process-step"><span class="step-number">04</span>
+            <h3>Entregamos contigo</h3>
+            <p>Revisamos lo acordado y te acompañamos para empezar a usarlo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="preguntas" class="faq-section section-pad section-anchor">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <p class="eyebrow">07 / PREGUNTAS FRECUENTES</p>
+            <h2>Antes de<br>dar el primer paso.</h2>
+            <p class="section-intro mt-4">Si tienes otra pregunta, podemos revisarla al conversar sobre tu proyecto.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="accordion accordion-flush" id="faqAccordion">
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">¿Puedo empezar si mi idea todavía
+                    no está definida?</button></h3>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Sí. Podemos comenzar con lo que quieres lograr. Revisamos contigo los
+                    usuarios, las funciones y las prioridades para definir una primera versión con un alcance claro.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">¿Cómo se
+                    calcula el precio de un proyecto?</button></h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Depende de las funciones, la complejidad y los entregables. Antes de
+                    comenzar recibirás una propuesta con alcance, presupuesto y condiciones.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
+                    aria-controls="faq3">¿Trabajan con negocios fuera de Culiacán?</button></h3>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Sí. Podemos revisar necesidades, coordinar avances y realizar entregas de
+                    forma remota.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">¿Cuánto
+                    tarda y qué pasa después de entregar?</button></h3>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Los tiempos y el acompañamiento posterior se acuerdan en la propuesta. Si
+                    surgen nuevas funciones, revisamos y cotizamos su alcance por separado.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">¿También
+                    pueden mejorar algo que ya existe?</button></h3>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Sí. Podemos revisar tu sitio, aplicación o sistema actual y proponer
+                    mejoras, nuevas funciones o integraciones. Primero evaluamos su estado, los accesos y los cambios
+                    que necesitas.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section section-pad section-anchor">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <p class="eyebrow">08 / HABLEMOS DE TU PROYECTO</p>
+            <h2>Las buenas ideas<br>merecen una<br><span>buena solución.</span></h2>
+            <p class="contact-description">Cuéntanos qué quieres crear o mejorar. Un sitio, una aplicación o una idea
+              diferente: el primer paso es entender lo que necesitas.</p><a id="whatsappLink" class="btn btn-whatsapp"
+              href="https://wa.me/526671920834?text=Hola%2C%20vi%20el%20sitio%20de%20TI%20Solutions%20y%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20para%20desarrollar%20mi%20proyecto."
+              target="_blank" rel="noopener noreferrer">Conversar por WhatsApp <svg class="whatsapp-icon"
+                aria-hidden="true">
+                <use href="#i-whatsapp" />
+              </svg></a>
+            <div class="contact-details"><a class="contact-phone" href="tel:+526671920834">667 192 0834</a><a
+                id="emailLink" href="mailto:gdrmgdrm2@gmail.com">gdrmgdrm2@gmail.com</a><span><svg class="icon">
+                  <use href="#i-pin" />
+                </svg> Culiacán, Sinaloa · Atención remota</span>
+              <div id="socialLinks" class="social-links" role="group" aria-label="Redes sociales"></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form id="projectForm" class="contact-form" action="https://formsubmit.co/gdrmgdrm2@gmail.com"
+              method="POST">
+              <h3>¿Qué tienes en mente?</h3>
+              <p>Cuéntanos tu idea. Recibiremos tu consulta por correo.</p>
+              <div class="row g-3">
+                <div class="col-sm-6"><label for="clientName" class="form-label">Tu nombre <span
+                      aria-hidden="true">*</span></label><input class="form-control" id="clientName" name="name"
+                    autocomplete="name" maxlength="100" required></div>
+                <div class="col-sm-6"><label for="businessName" class="form-label">Negocio <span
+                      class="optional">(opcional)</span></label><input class="form-control" id="businessName"
+                    name="negocio" autocomplete="organization" maxlength="120"></div>
+                <div class="col-sm-6"><label for="clientEmail" class="form-label">Tu correo <span
+                      aria-hidden="true">*</span></label><input type="email" class="form-control" id="clientEmail"
+                    name="email" autocomplete="email" maxlength="254" required></div>
+                <div class="col-sm-6"><label for="clientPhone" class="form-label">Teléfono <span
+                      class="optional">(opcional)</span></label><input type="tel" class="form-control" id="clientPhone"
+                    name="telefono" autocomplete="tel" maxlength="32"></div>
+                <div class="col-12"><label for="serviceSelect" class="form-label">¿En qué podemos
+                    ayudarte?</label><select class="form-select" id="serviceSelect" name="servicio">
+                    <option value="Por definir">Quiero orientación para mi proyecto</option>
+                    <option>Sitios web</option>
+                    <option>Aplicaciones web y móviles</option>
+                    <option>Software a medida</option>
+                    <option>Tiendas en línea</option>
+                    <option>Automatización e integraciones</option>
+                    <option>Mejoras y mantenimiento</option>
+                    <option>Otra solución digital</option>
+                  </select></div>
+                <div class="col-12"><label for="projectDetails" class="form-label">Cuéntanos un poco <span
+                      aria-hidden="true">*</span></label><textarea class="form-control" id="projectDetails"
+                    name="message" rows="4" placeholder="¿Qué te gustaría crear, para quién y qué debería resolver?"
+                    minlength="10" maxlength="3000" required></textarea></div>
+              </div>
+              <div class="contact-trap" aria-hidden="true"><label for="contactWebsite">Sitio web</label><input
+                  type="text" id="contactWebsite" name="_honey" tabindex="-1" autocomplete="off"></div><input
+                type="hidden" name="_subject" value="Nueva consulta · TI Solutions"><input type="hidden"
+                name="_template" value="table"><button id="submitProject" type="submit"
+                class="btn btn-primary w-100 mt-4">Enviar consulta por correo <svg class="icon">
+                  <use href="#i-arrow" />
+                </svg></button>
+              <p id="formStatus" class="form-status" role="status" aria-live="polite" hidden></p>
+              <p class="form-note" id="formNote">Usaremos tus datos para responder a tu consulta. El envío se procesa
+                mediante <a href="https://formsubmit.co/privacy.pdf" target="_blank"
+                  rel="noopener noreferrer">FormSubmit</a>.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top"><a href="#inicio" class="footer-brand">TI SOLUTIONS<span>Software Innovations</span></a>
+        <p>Sitios web · Aplicaciones · Soluciones a medida</p><a href="#inicio" class="text-link">Volver arriba ↑</a>
+      </div>
+      <div class="footer-bottom"><span>© <span id="currentYear">2026</span> TI Solutions.</span><span>Desde Culiacán,
+          para tu siguiente proyecto.</span></div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
